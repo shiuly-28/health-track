@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Product from './components/Product'
 
+
 export default function page() {
   return (
     <div>
