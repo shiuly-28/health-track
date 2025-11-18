@@ -11,37 +11,37 @@ export default function HeroWithImageCards() {
     {
       title: "Cardiology",
       patients: "5,200+ Patients",
-      image: "https://i.postimg.cc/wj2hK3kY/cardiology-doctor.jpg",
+      image: "https://i.postimg.cc/bJRWFDks/360-F-276021384-p9d1Hkgn4d5LYX1Fn-CQRSLw76YX7754n.jpg",
       gradient: "from-red-500 to-pink-600",
     },
     {
       title: "Neurology",
       patients: "3,800+ Patients",
-      image: "https://i.postimg.cc/3r5hK1nD/neurology-brain-scan.jpg",
+      image: "https://i.postimg.cc/MG2L6bY9/istockphoto-962094986-612x612.jpg",
       gradient: "from-purple-500 to-indigo-600",
     },
     {
       title: "Orthopedics",
       patients: "7,100+ Patients",
-      image: "https://i.postimg.cc/0yQ8jK8M/orthopedics-xray.jpg",
+      image: "https://i.postimg.cc/Gpmys6K6/Is-There-A-Difference-Between-An-Orthopedic-Doctor-and-An-Orthopedic-Surgeon.jpg",
       gradient: "from-blue-500 to-cyan-600",
     },
     {
       title: "Pediatrics",
       patients: "9,400+ Patients",
-      image: "https://i.postimg.cc/9QjK6vP8/pediatric-doctor-baby.jpg",
+      image: "https://i.postimg.cc/qByzgk0C/FAMILY-DOCTOR.webp",
       gradient: "from-green-500 to-emerald-600",
     },
     {
       title: "Ophthalmology",
       patients: "4,600+ Patients",
-      image: "https://i.postimg.cc/3w8vP8nK/eye-examination.jpg",
+      image: "https://i.postimg.cc/BZTn4McR/Side-perspective-of-an-eye-doctor-using-a-microscope-and-slit-lamp-to-view-a-patients-eye.png",
       gradient: "from-orange-500 to-amber-600",
     },
     {
       title: "General Medicine",
       patients: "12,000+ Patients",
-      image: "https://i.postimg.cc/9QjK6vP8/general-doctor-consultation.jpg",
+      image: "https://i.postimg.cc/6pgXdvfG/senior-doctor-sitting-office-23-2147896126.avif",
       gradient: "from-teal-500 to-cyan-700",
     },
   ];
