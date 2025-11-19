@@ -24,3 +24,46 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* app/globals.css এর শেষে পেস্ট করো */
+
+@keyframes leftToRight {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes rightToLeft {
+  0%   { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+.animate-leftToRight {
+  animation: leftToRight 16s linear infinite;
+}
+
+.animate-rightToLeft {
+  animation: rightToLeft 20s linear infinite;
+}
+
+/* হোভারে থেমে যাবে (চাইলে মুছে দাও) */
+.animate-leftToRight:hover,
+.animate-rightToLeft:hover {
+  animation-play-state: paused;
+}
+
+/* app/globals.css এর শেষে পেস্ট করো */
+
+@keyframes zoomInDown {
+  0% {
+    opacity: 0;
+    transform: scale(0.7) translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1) translateY(0);
+  }
+}
+
+.animate-zoomInDown {
+  animation: zoomInDown 0.8s ease-out forwards;
+}
