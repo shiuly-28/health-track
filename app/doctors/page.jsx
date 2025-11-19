@@ -58,7 +58,7 @@ export default function DoctorsPage() {
       degree: "MBBS, FCPS (Medicine)",
       specialty: "Internal Medicine Specialist",
       experience: "14+ Years",
-      image: "https://i.postimg.cc/8P8P8P8P/doctor6.jpg",
+      image: "https://i.postimg.cc/pVmpBQbm/istockphoto-175242190-612x612.jpg",
       phone: "+880 1711-223399",
       email: "nasrin@healtrack.com",
     },
