@@ -1,6 +1,6 @@
 import React from 'react'
 // import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+
 import Hero from './components/Hero'
 import Product from './components/Product'
 import PricingPage from './components/PricingPage'
@@ -17,9 +17,9 @@ export default function page() {
       <Hero/>
       <Product/>
       <ScrollingMarquee/>
-      <PricingPage></PricingPage>
+      <PricingPage/>
       <MedicalProductGrid/>
-      <Footer/>
+      
     </div>
   )
 }

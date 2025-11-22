@@ -12,6 +12,14 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  // const user = {
+  //   name:"test",
+  //   email: "as@gmail.com",
+
+  // }
+
+  const user= null
+
   const menuItems = [
     { label: 'Home', href: '/' },
     { label: 'AboutUs', href: '/aboutUs' },
@@ -45,6 +53,11 @@ export default function Navbar() {
                   {item.label}
                 </Link>
               ))}
+            <div>
+              {
+                user ? user.name: <Link href="/login">login</Link>
+              }
+            </div>
             </div>
 
             {/* Mobile Menu Button */}

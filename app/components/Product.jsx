@@ -142,7 +142,7 @@ export default function Product() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {services.map((service) => (
-              <Link key={service.slug} href={`/services/${service.slug}`}>
+              <Link key={service.slug} href={`/departments/${service.slug}`}>
                 <motion.div
                   whileHover={{ scale: 1.05, y: -10 }}
                   transition={{ type: "spring", stiffness: 200, damping: 18 }}
